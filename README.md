@@ -5,4 +5,17 @@
 </p>
 
 Artificial Intelligence has seen a huge development over the years. Thanks to this potential, it is of the uttermost importance to use AI for the well-being of humans and of the world they are living in.
-The Sustainable Development Goals 
+The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. 
+
+<p align="center">
+    <img src="https://ec.europa.eu/eurostat/documents/4187653/8661125/E_SDG+goals_icons-individual-rgb-14.jpg/bc3ed89f-9fa9-4c27-a4c0-bb6d9ccac270?t=1533797139000" alt="Life Under Water">
+</p>
+
+Among these goals, n.14, "Life Under Water", got my attention and that is why I decided to implement an object detection model that is able to localize in an image turtles' heads. 
+I used RetinaNet for the Object detection task and the results were quite promising: 87% IoU score.
+
+In this repo you can find the report of my research along with the notebooks I used.
+
+<p align="center">
+    <img src="https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/1280x800-sea-turtle-ucsc-edu.jpg" alt="Sea Turtle">
+</p>
