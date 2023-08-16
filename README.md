@@ -19,9 +19,10 @@ I used RetinaNet for the Object detection task and the results were quite promis
 </p>
 
 In this repo you can find the report of my research along with the notebooks I used:
+- [Report](AI_report.pdf) (read first): The report contains an explanation of the problem, why it is important for humanity and the Earth, and technically the approaches that were used for predicting the bounding boxes.
 - [Regression with RetinaNet](https://github.com/AlbertoFormaggio1/turtle-head-detection/blob/main/sea_turtle_keras_cv.ipynb): in this notebook I used RetinaNet along with several backbones in order to find the best setting for finding turtles' heads in an image.
 - [Naive Regression](sea_turtle_regression.ipynb): in this notebook instead I just used some backbones followed by regression layers to predict the 4 corners of the bounding box directly.
-- [Report](AI_report.pdf): The report contains an explanation of the problem, why it is important for humanity and the Earth, and technically the approaches that were used for generating the prediction.
+
 
 <p align="center">
     <img src="https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/1280x800-sea-turtle-ucsc-edu.jpg" alt="Sea Turtle">
