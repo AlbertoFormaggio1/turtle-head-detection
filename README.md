@@ -14,8 +14,23 @@ The 2030 Agenda for Sustainable Development, adopted by all United Nations Membe
 Among these goals, n.14, "Life Under Water", got my attention and that is why I decided to implement an object detection model that is able to localize in an image turtles' heads. 
 I used RetinaNet for the Object detection task and the results were quite promising: 87% IoU score.
 
-In this repo you can find the report of my research along with the notebooks I used.
+In this repo you can find the report of my research along with the notebooks I used:
+<ul>
+    <li>
+        [Regression with RetinaNet](./sea_turtle_keras_cv.ipynb): in this notebook I used RetinaNet along with several backbones in order to find the best setting for finding turtles' heads in an image
+    </li>
+    <li>
+        [Naive Regression](sea_turtle_regression.ipynb): in this notebook instead I just used the pre-trained network with some following regression layers to predict the 4 corners of the bounding box
+    </li>
+    <li>
+        [Report](AI_report.pdf): The report contains an explanation of the problem, why it is important for humanity and the Earth, and technically the approaches that were used for generating the prediction.
+    </li>
+</ul>
 
 <p align="center">
     <img src="https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/1280x800-sea-turtle-ucsc-edu.jpg" alt="Sea Turtle">
+</p>
+
+<p align='center'>
+    <img src="./Prediction_Example.png">
 </p>
